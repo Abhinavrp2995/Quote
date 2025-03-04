@@ -39,6 +39,10 @@ function Quote() {
   };
 
   return (
+    <div>
+      <h1 className="text-center mt-5 mb-5" style={{color:'whitesmoke'}}>RANDOM QUOTES GENERATOR</h1>
+    
+    
     <div className="glass-effect mt-5">
       <div className="card text-center mt-5">
         <div className="container">
@@ -65,6 +69,7 @@ function Quote() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
